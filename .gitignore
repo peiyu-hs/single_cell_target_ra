@@ -1,5 +1,8 @@
 # Large datasets
-data/
+data/*
+!data/README.md
+
+# Processed data
 *.h5ad
 *.h5
 
@@ -16,3 +19,6 @@ __pycache__/
 # Environment
 .venv/
 venv/
+
+# VS Code
+.vscode/
