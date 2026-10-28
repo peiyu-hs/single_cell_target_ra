@@ -236,9 +236,9 @@ single_cell_ra/
 |   |-- 05_mechanism_focused_candidates.png
 |   |-- 06_candidate_expression_dotplot.png
 |   |-- 07_sample_cell_state_composition.png
-|   |-- 09_scm1_candidate_sample_reproducibility.png
-|   |-- 10_ml_cross_validation_performance.png
-|   `-- 11_ml_convergent_monocyte_features.png
+|   |-- 08_scm1_candidate_sample_reproducibility.png
+|   |-- 09_ml_cross_validation_performance.png
+|   `-- 10_ml_convergent_monocyte_features.png
 |
 `-- results/
     |-- cluster_markers.csv
