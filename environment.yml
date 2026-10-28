@@ -1,0 +1,20 @@
+name: single-cell-ra
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - scanpy
+  - anndata
+  - jupyter
+  - ipykernel
+  - openpyxl
+  - pip
+  - pip:
+      - gseapy==1.3.1

@@ -1,0 +1,3 @@
+Analysis,N_Stable_Genes,Stable_Genes
+Alternative weighting schemes,8,CTSS; FCER1G; HLA-DPA1; HLA-DQA1; HLA-DRA; HLA-DRB1; IFI30; TYROBP
+Leave-one-feature-out,4,HLA-DPA1; HLA-DRA; HLA-DRB1; TYROBP
