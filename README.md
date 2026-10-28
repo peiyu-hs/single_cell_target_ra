@@ -149,13 +149,17 @@ Candidate genes were prioritized using five complementary transcriptomic evidenc
 
 Each component was normalized before integration into an exploratory **Transcriptomic Evidence Score**.
 
-![Transcriptomic candidate ranking](figures/04_transcriptomic_candidate_ranking.png)
+<p align="center">
+  <img src="figures/04_transcriptomic_candidate_ranking.png" width="550">
+</p>
 
 The score is intended to prioritize transcriptomic hypotheses and **does not represent predicted therapeutic efficacy**.
 
 A separate mechanism-focused shortlist was used to highlight immune-signaling genes for downstream therapeutic interpretation.
 
-![Mechanism-focused candidates](figures/05_mechanism_focused_candidates.png)
+<p align="center">
+  <img src="figures/05_mechanism_focused_candidates.png" width="550">
+</p>
 
 ---
 
@@ -171,12 +175,14 @@ Candidate expression was evaluated across the 18 published cell states to distin
 
 Cell-state composition varied substantially across sequencing samples.
 
-![Sample composition](figures/07_sample_cell_state_composition.png)
+<p align="center">
+  <img src="figures/07_sample_cell_state_composition.png" width="750">
+</p>
+
 
 Candidate expression within SC-M1 was also examined across samples to assess whether selected signals were dominated by individual sequencing samples.
 
-![Sample-level candidate expression](figures/08_scm1_candidate_sample_reproducibility.png)
-
+![Sample composition](figures/08_scm1_candidate_sample_reproducibility.png)
 These analyses are interpreted at the **sample level**, because a complete sample-to-patient clinical crosswalk was not available for this reanalysis.
 
 ---
@@ -198,7 +204,10 @@ To reduce information leakage:
 
 ### Cross-Validation Performance
 
-![Machine-learning performance](figures/09_ml_cross_validation_performance.png)
+<p align="center">
+  <img src="figures/09_ml_cross_validation_performance.png" width="550">
+</p>
+
 
 The classifier achieved a mean AUROC of **0.919 ± 0.027** and mean balanced accuracy of **0.821 ± 0.028** across five held-out-sample folds.
 
@@ -206,7 +215,9 @@ The classifier achieved a mean AUROC of **0.919 ± 0.027** and mean balanced acc
 
 Logistic-regression coefficients were aggregated across folds to identify stable predictive features and compared with pathway-derived monocyte candidates from the first analysis.
 
-![Convergent inflammatory monocyte features](figures/10_ml_convergent_monocyte_features.png)
+<p align="center">
+  <img src="figures/10_ml_convergent_monocyte_features.png" width="550">
+</p>
 
 This analysis identified **21 genes** with both inflammatory-state predictive evidence and SC-M1/SC-M4 pathway evidence.
 
