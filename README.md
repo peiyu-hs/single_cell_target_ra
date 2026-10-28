@@ -89,16 +89,16 @@ HVG -> PCA -> neighbor graph        Monocyte subset
 Differential expression                     v
             |                    Inflammatory vs other
             v                               |
-Ranked GSEA                                  v
+Ranked GSEA                                 v
             |                    Sample-aware 5-fold CV
             v                               |
-Leading-edge genes                           v
+Leading-edge genes                          v
             |                    Logistic regression
             v                               |
-Cross-cell-state integration                 v
+Cross-cell-state integration                v
             |                    Stable predictive genes
             v                               |
-Transcriptomic evidence score                |
+Transcriptomic evidence score               |
             |                               |
             +---------------+---------------+
                             |
