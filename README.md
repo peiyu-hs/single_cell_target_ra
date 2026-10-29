@@ -297,8 +297,8 @@ Both notebooks were tested using a fresh kernel and executed successfully from b
 - The Transcriptomic Evidence Score is an exploratory prioritization framework rather than a validated therapeutic prediction model.
 - The ML classifier predicts inflammatory monocyte state, **not therapeutic efficacy**.
 - ML and pathway analyses use the same underlying dataset; their overlap is therefore convergent computational evidence rather than independent validation.
+- Ranked GSEA contained tied Wilcoxon differential-expression statistics, resulting in arbitrary ordering among genes with identical scores; no artificial jitter was introduced to alter the original ranking.
 - Candidate therapeutic hypotheses require independent genetic, pharmacologic, safety, and clinical validation.
-
 ---
 
 ## Tools
